@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.foo p {
+    color: black;
+    font-size: 20px;
+}
+
+.container {
+  padding: 30px;
+}
+
+</style>
+</head>
+<body>
+<header>
+      <h1>
+        REDIRECT
+      </h1>
+    </header>
+
+<div class='container'>
+	<div class='foo'>
+				
+		<p>
+		You will be redirected in 5 seconds to the exit survey. Please wait.
+	    </p>
+	</div>
+</div>
+<script>	
+setTimeout(function () {
+   window.location.assign("https://www.qualtrics.com"); //will redirect to your blog page (an ex: blog.html)
+}, 5000);
+
+</script>
+
+</body>
+</html>
